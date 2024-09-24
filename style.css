@@ -11,3 +11,11 @@
     font-weight: normal;
     font-style: normal;
 }
+
+.full-container {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black; /* delete later */
+    width: 1100px;
+    margin: 0 auto;
+}

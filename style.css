@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #989898;
+}
+
+/* Fonts */
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(./fonts/Norse-Bold.otf);
+    font-weight: normal;
+    font-style: normal;
+}

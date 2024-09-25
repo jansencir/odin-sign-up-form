@@ -64,13 +64,13 @@ body {
     text-align: center;
     width: 100%;
     bottom: 10px;
-    color: white;
+    color: #ffffffbb;
     font-size: 0.65rem;
 }
 
 .img-credit > a:visited,
 .img-credit > a:link {
-    color: white;
+    color: #ffffffbb;
 }
 
 .right-side {

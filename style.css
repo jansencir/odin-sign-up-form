@@ -71,3 +71,60 @@ body {
 .img-credit > a:link {
     color: white;
 }
+
+.right-side {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.header-text,
+.enticing-text,
+.form-header,
+.form-row,
+.fake-button,
+.login-prompt {
+    margin-left: 40px;
+    margin-right: 170px;    
+}
+
+.header-text {
+    margin-bottom: 24px;
+}
+
+.enticing-text {
+    margin-bottom: 48px;
+}
+
+.form-box {
+    box-shadow: 0 10px 10px -10px grey;
+    background-color: #ffffff;
+    padding-top: 16px;
+    padding-bottom: 28px;
+}
+
+.form-header {
+    margin-bottom: 12px;
+}
+
+.right-side > form {
+    background-color: #ffffff;
+    box-shadow: 2px;
+}
+
+.form-row {
+    display: flex;
+    gap: 50px;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+}
+
+.form-element > label {
+    font-size: 10px;
+}

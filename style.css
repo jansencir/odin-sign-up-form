@@ -84,7 +84,7 @@ body {
 .enticing-text,
 .form-header,
 .form-row,
-.fake-button,
+.create-account-btn,
 .login-prompt {
     margin-left: 40px;
     margin-right: 170px;    
@@ -127,4 +127,33 @@ body {
 
 .form-element > label {
     font-size: 10px;
+}
+
+
+
+
+.create-account-btn {
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    width: 180px;
+    height: 38px;
+    margin-top: 26px;
+    margin-bottom: 30px;
+}
+
+.login-prompt {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.login-link {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-link, .login-link:link, .login-link:visited {
+    color: #596D48;
 }

@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -140,7 +141,20 @@ body {
     color: #4f4f4f;
 }
 
+.form-element > input {
+    width: 200px;
+    height: 22px;
+}
 
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    font-size: 12px;
+    padding-left: 6px;
+    border: 1px solid #bbbbbb90;
+    border-radius: 3px;
+}
 
 
 .create-account-btn {

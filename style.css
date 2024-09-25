@@ -144,6 +144,14 @@ body {
     margin-bottom: 30px;
 }
 
+.create-account-btn:hover {
+    background-color: #596D4890;
+}
+
+.create-account-btn:active {
+    background-color: #596D4880;
+}
+
 .login-prompt {
     font-weight: normal;
     font-size: 14px;
@@ -156,4 +164,12 @@ body {
 
 .login-link, .login-link:link, .login-link:visited {
     color: #596D48;
+}
+
+.login-link:hover {
+    color: #596D4890;
+}
+
+.login-link:active {
+    color: #596D4880;
 }

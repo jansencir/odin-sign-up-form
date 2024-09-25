@@ -20,8 +20,6 @@ body {
 .full-container {
     display: flex;
     flex-direction: row;
-    border-left: 2px solid black; /* delete later */
-    border-right: 2px solid black; /* delete later */
     width: 1100px;
     margin: 0 auto;
 }

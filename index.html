@@ -26,24 +26,24 @@
                 You <em>know</em> you want to.
             </p>
             <div class="form-box">
-                <form action="">
+                <form action="" id="sign-up-form">
                     <p class="form-header">
                         Let's do this!
                     </p>
                     <div class="form-row">
                         <div class="first-name form-element">
                             <label for="first-name">FIRST NAME</label>
-                            <input type="text" name="first-name" id="first-name">
+                            <input type="text" name="first-name" id="first-name" required>
                         </div>
                         <div class="last-name form-element">
                             <label for="last-name">LAST NAME</label>
-                            <input type="text" name="last-name" id="last-name">
+                            <input type="text" name="last-name" id="last-name" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="email form-element">
                             <label for="email">EMAIL</label>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" required>
                         </div>
                         <div class="phone-number form-element">
                             <label for="phone-number">PHONE NUMBER</label>
@@ -53,16 +53,16 @@
                     <div class="form-row">
                         <div class="password form-element">
                             <label for="password">PASSWORD</label>
-                            <input type="password" name="password" id="password">
+                            <input type="password" name="password" id="password" required>
                         </div>
                         <div class="confirm-password form-element">
                             <label for="confirm-password">CONFIRM PASSWORD</label>
-                            <input type="password" name="confirm-password" id="confirm-password">
+                            <input type="password" name="confirm-password" id="confirm-password" required>
                         </div>
                     </div>
                 </form>
             </div>
-            <button class="create-account-btn">Create Account</button>
+            <button class="create-account-btn" type="submit" form="sign-up-form" >Create Account</button>
             <p class="login-prompt">Already have an account? <a class="login-link" href="#">Log in</a></p>
         </div>
     </div>

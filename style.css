@@ -162,9 +162,9 @@ input[type="password"]:focus {
     box-shadow: 1px 1px 1px 1px #aaaaaaaa;
 }
 
-input:invalid {
+/* input:invalid {
     outline: 1px solid red;
-}
+} */
 
 .create-account-btn {
     background-color: #596D48;

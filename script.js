@@ -1,14 +1,18 @@
 // Check if passwords match
 function checkPasswordsMatch () {
-    const password = document.getElementById("password").value;
-    const confirmPassword = document.getElementById("confirm-password").value;
+    const password = document.getElementById("password");
+    const confirmPassword = document.getElementById("confirm-password");
+    const passwordMatchText = document.getElementById("password-match");
 
-    if (password !== confirmPassword) {
-        console.log("Passwords don't match");
+    if (password.value !== confirmPassword.value) {
+        passwordMatchText.textContent = "*Passwords do not match";
+        password.classList.add("password-red-outline")
+        confirmPassword.classList.add("password-red-outline");
         return false;
-    }
-    if (password === confirmPassword) {
-        console.log("Passwords match!")
+    } else {
+        passwordMatchText.textContent = "";
+        password.classList.remove("password-red-outline");
+        confirmPassword.classList.remove("password-red-outline");
         return true;
     }
 }

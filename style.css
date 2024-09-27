@@ -162,11 +162,15 @@ input[type="password"]:focus {
     box-shadow: 1px 1px 1px 1px #aaaaaaaa;
 }
 
-.password-match {
+#password-match {
     height: 10px;
     font-size: 10px;
     font-weight: normal;
     color: #B91C1C;
+}
+
+.password-red-outline {
+    outline: 1px solid #B91C1C;
 }
 
 /* input:invalid {

@@ -166,6 +166,7 @@ input[type="password"]:focus {
     height: 10px;
     font-size: 10px;
     font-weight: normal;
+    color: #B91C1C;
 }
 
 /* input:invalid {
